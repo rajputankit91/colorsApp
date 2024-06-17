@@ -1,0 +1,106 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.hero-container-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-container-left h1 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+}
+.hero-container-left p {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.hero-container-left .hero-span {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-span-1 {
+    background-image: linear-gradient(120deg, #9f48b5 0%, #d52560 100%);
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+}
+.hero-span-2 {
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #d52560;
+}
+.hero-span-1 a {
+    color: #fff;
+}
+.hero-span-2 a {
+    color: #d52560;
+}
+.hero-span a {
+    text-decoration: none;
+}
+.hero-container-right {
+    padding: 20px;
+    background-color: #fff;  
+    border-radius: 10px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.hero-container-right img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.hero-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+.hero-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+    width: 180px;
+    padding: 30px 20px;
+    border-radius: 15px;
+}
+.hero-box .hero-icon i {
+    width: 100px;
+    border: solid;
+}
+.hero-box h2 {
+    font-size: 28px;
+}
+.hero-box p {
+    text-align: center;
+    line-height: 24px;
+}

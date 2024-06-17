@@ -1,0 +1,66 @@
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 24px;
+  position: relative;
+  text-align: left;
+  min-width: 100%;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.innerContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 10px 35px;
+}
+
+.palette_cardColor div {
+  flex-grow: 1;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  flex-basis: 1px;
+}
+
+.palette_cardColor div:first-child {
+  border-radius: 10px 0 0;
+  border-radius: 10px 0 0 10px;
+  box-shadow: inset rgba(0, 0, 0, 0.05) 1px 1px,
+    inset rgba(0, 0, 0, 0.05) 0 -1px;
+}
+.palette_cardColor div:last-child {border-radius: 0 10px 10px 0;
+  box-shadow: inset rgba(0, 0, 0, 0.05) -1px 1px, inset rgba(0, 0, 0, 0.05) 0 -1px;
+}
+
+.palette_cardColor div:after {
+  display: inline-block;
+  font: normal normal normal 1em / 1 "Nucleo";
+  speak: none;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0) scale(0);
+  font-size: 40px;
+  opacity: 1;
+  transition: none;
+  color: white;
+  visibility: hidden;
+}
+
+.palette_card {
+  display: block;
+  position: relative;
+}
+
+.palette_cardColor{
+  display: flex;
+  width: 100%;
+  height: 104px;
+}

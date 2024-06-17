@@ -1,0 +1,47 @@
+.Palette {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+.Palette-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+.Palette-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.Palette-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.Palette-box-img img {
+    border-radius: 10px;
+}
+.Palette-box-content {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 20px;
+}
+.content h3 {
+    text-align: end;
+}
+.content p {
+    text-align: end;
+}
+.Palette-box-content p {
+    line-height: 25px;
+    font-size: 15px;
+}
