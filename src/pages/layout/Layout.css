@@ -34,7 +34,8 @@
 
 .nav-link ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
+    gap: 2rem;
     align-items: center;
     list-style: none;
 }

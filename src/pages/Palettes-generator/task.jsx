@@ -1,7 +1,7 @@
 // - homePage
-//   - header CSS
-//   - header's link proper working
-//   - add event on start button                        # done
+//   - header CSS                                       # done
+//   - header's link proper working                     # done
+//   - add event on logo button                         # done
 //   - add event on explore trending palettes
 //   - add footer                                       # done
 //   - footer css                                       # done
@@ -11,8 +11,8 @@
 //   - add more color palettes data                     # done
 //   - add hover on color palettes                      # done
 // - generate color palettes
-//   - add upload an image button                       # done
-//   - add event on upload an image button
+//   - add upload an image button                       
+//   - add event on try demo image button               # done
 //   - CSS on show image
 // - show color palettes
 //   - add explore color combination button             # done
