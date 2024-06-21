@@ -4,6 +4,7 @@ import palettesData from "../../../public/palettes.json";
 import { IoMdSearch } from "react-icons/io";
 import ReusableInput from "../../common/Input";
 import MainHeading from "../../mainHeading/MainHeading";
+import PalettesShow from "../palettes/Palettes";
 
 const Palettes = () => {
   const [palettes, setPalettes] = useState(palettesData);
@@ -26,7 +27,6 @@ const Palettes = () => {
       setPalettes(filterBySearch);
     }
   };
-  console.log(searchVal);
 
   return (
     <>
@@ -41,26 +41,7 @@ const Palettes = () => {
       </form>
 
       <MainHeading />
-
-      <div className="container">
-        <div className="innerContainer">
-          {palettes.map((palette, index) => {
-            return (
-              <div className="explore-palettes_col">
-                <div className="palette_card">
-                  <div className="palette_cardColor">
-                    {palette.colors.map((color, index) => {
-                      return (
-                        <div style={{ backgroundColor: `${color}` }}></div>
-                      );
-                    })}
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-      </div>
+      <PalettesShow></PalettesShow>
     </>
   );
 };

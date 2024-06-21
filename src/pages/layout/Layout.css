@@ -2,14 +2,15 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    padding: 20px 0px;
+    padding: 20px 50px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px 30px;
-    width: 85%;
+    width: 100%;
     background-color: #fff;
     border-radius: 30px;
 }

@@ -10,7 +10,7 @@ import Perviewer from './pages/Palletes-Perviewer/Perviewer';
 
 function App() {
   return (
-    <div className='container'>
+    <div className='mainContainer'>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
