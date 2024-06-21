@@ -8,15 +8,14 @@ const Layout = () => {
       <div className="header">
         <div className="navbar">
           <div className="nav-logo">
-            <img
-              src="https://pbs.twimg.com/profile_images/1710686397487894528/t7Jd5yJO_400x400.jpg"
-              alt="img"
-            />
-            <h2>
-              <Link to="/">Logo</Link>
-            </h2>
+            <Link to="/">
+              <img
+                src="https://pbs.twimg.com/profile_images/1710686397487894528/t7Jd5yJO_400x400.jpg"
+                alt="img"
+              />
+            </Link>
           </div>
-          
+
           <nav className="nav-link">
             <ul>
               <li>

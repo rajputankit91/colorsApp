@@ -9,7 +9,7 @@
 //   - search component CSS
 //   - searching functionality
 //   - add more color palettes data                     # done
-//   - add hover on color palettes
+//   - add hover on color palettes                      # done
 // - generate color palettes
 //   - add upload an image button                       # done
 //   - add event on upload an image button
