@@ -16,7 +16,12 @@ const PalettesShow = () => {
                   <div className="palette_cardColor" key={index}>
                     {palette.colors.map((color, index) => {
                       return (
-                        <div style={{ backgroundColor: `${color}`}} key={index}></div>
+                        <div
+                          style={{ backgroundColor: `${color}` }}
+                          key={index}
+                        >
+                          <span>{color}</span>
+                        </div>
                       );
                     })}
                   </div>

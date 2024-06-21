@@ -44,18 +44,24 @@ const Palettes = () => {
       <MainHeading />
 
       <div className="container">
+        <h1>Container</h1>
         <div className="innerContainer">
           {palettes.map((palette, index) => {
+            console.log(palette)
             return (
               <div className="explore-palettes_col">
                 <div className="palette_card">
                   <div className="palette_cardColor">
                     {palette.colors.map((color, index) => {
+                      {console.log(color,"00000000000000")}
                       return (
-                        <div style={{ backgroundColor: `${color}` }}></div>
+                        <div style={{ backgroundColor: `${color}` }}>
+                          <span></span>
+                        </div>
                       );
                     })}
                   </div>
+                  {/* <div className="cardDetails">card Details</div> */}
                 </div>
               </div>
             );

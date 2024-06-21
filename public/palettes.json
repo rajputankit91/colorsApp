@@ -1,60 +1,50 @@
 [
   {
-    "name":"red",
-    "id":1,
+    "name": "red",
+    "id": 1,
     "colors": ["#7cb5ec", "#434348", "#90ed7d", "#f7a35c", "#8085e7"]
   },
   {
-    "name":"green",
-    "id":2,
+    "name": "green",
+    "id": 2,
     "colors": ["#2f7ed8", "#0d233a", "#8bbc21", "#910000", "#1aadce"]
   },
   {
-    "name":"black",
-    "id":3,
+    "name": "black",
+    "id": 3,
     "colors": ["#4572A7", "#AA4643", "#89A54E", "#80699B", "#3D96AE"]
   },
   {
-    "name":"yello",
-    "id":4,
+    "name": "yello",
+    "id": 4,
     "colors": ["#EAEFF2", "#00AE4C", "#FF84AF", "#FFA700", "#0072C4"]
   },
   {
-    "name":"blue",
-    "id":5,
+    "name": "blue",
+    "id": 5,
     "colors": [
       "#15171b",
-      "#1d1e26",
       "#282a36",
       "#414558",
       "#8a8f98",
       "#f8f8f2",
-      "#80ffea",
-      "#8aff80",
-      "#ffca80",
-      "#ff80bf",
-      "#9580ff",
-      "#ff9580",
-      "#ffff80"
+      "#80ffea"
     ]
   },
   {
-    "name":"pink",
-    "id":6,
+    "name": "pink",
+    "id": 6,
     "colors": [
       "#5797CD",
       "#BB67A9",
       "#12B492",
       "#D2DF41",
-      "#48648A",
-      "#F37A3A",
-      "#FECC41",
-      "#28C0D6"
+      "#48648A"
     ]
   },
   {
-    "name":"lightred",
-    "id":7,
+    "name": "lightred",
+    "id": 7,
     "colors": [
       "#a8bed2",
       "#a4beb2",
@@ -66,8 +56,8 @@
     ]
   },
   {
-    "name":"orenge",
-    "id":8,
+    "name": "orenge",
+    "id": 8,
     "colors": [
       "#25476d",
       "#10505b",
@@ -77,5 +67,65 @@
       "#e36942",
       "#353a71"
     ]
+  },
+  {
+    "name": "gray",
+    "id": 9,
+    "colors": ["#ea5545", "#f46a9b", "#ef9b20", "#edbf33", "#ede15b"]
+  },
+  {
+    "name": "Dutch",
+    "id": 10,
+    "colors": ["#e60049", "#0bb4ff", "#50e991", "#e6d800", "#9b19f5"]
+  },
+  {
+    "name": "River",
+    "id": 11,
+    "colors": ["#b30000", "#7c1158", "#4421af", "#1a53ff", "#0d88e6"]
+  },
+  {
+    "name": "Spring Pastels",
+    "id": 12,
+    "colors": ["#fd7f6f", "#7eb0d5", "#b2e061", "#bd7ebe", "#ffb55a"]
+  },
+  {
+    "name": "Blue to Yellow",
+    "id": 13,
+    "colors": ["#115f9a", "#1984c5", "#22a7f0", "#48b5c4", "#76c68f"]
+  },
+  {
+    "name": "Gray to red",
+    "id": 14,
+    "colors": ["#d7e1ee", "#cbd6e4", "#bfcbdb", "#b3bfd1", "#a4a2a8"]
+  },
+  {
+    "name": "black to pink",
+    "id": 15,
+    "colors": ["#2e2b28", "#3b3734", "#474440", "#54504c", "#6b506b"]
+  },
+  {
+    "name": "Blues",
+    "id": 16,
+    "colors": ["#0000b3", "#0010d9", "#0020ff", "#0040ff", "#0060ff"]
+  },
+  {
+    "name": "Blue to red",
+    "id": 17,
+    "colors": ["#1984c5", "#22a7f0", "#63bff0", "#a7d5ed", "#e2e2e2"]
+  },
+  {
+    "name": "Orange to purple",
+    "id": 18,
+    "colors": ["#ffb400", "#d2980d", "#a57c1b", "#786028", "#363445"]
+  },
+  {
+    "name": "Pink foam",
+    "id": 19,
+    "colors": ["#54bebe", "#76c8c8", "#98d1d1", "#badbdb", "#dedad2"]
+  },
+  {
+    "name": "Aqua",
+    "id": 20,
+    "colors": ["#e27c7c", "#a86464", "#6d4b4b", "#503f3f", "#333333"]
   }
 ]

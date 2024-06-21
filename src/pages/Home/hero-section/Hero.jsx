@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 
 function Hero() {
   let navigate = useNavigate();
-  console.log(navigate)
   return (
     <div className="hero">
       <section className="hero-section">

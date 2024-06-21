@@ -8,7 +8,7 @@
 // - explore page
 //   - search component CSS
 //   - searching functionality
-//   - add more color palettes data
+//   - add more color palettes data                     # done
 //   - add hover on color palettes
 // - generate color palettes
 //   - add upload an image button                       # done

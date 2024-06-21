@@ -1,0 +1,19 @@
+.palette_cardColor div span {
+  width: 100%;
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -7px;
+  color: white;
+  font-variation-settings: "wght" 600;
+  opacity: 0;
+  transition: all 0.1s ease-in-out;
+}
+.palette_cardColor div:hover {
+  flex-basis: 70px;
+}
+
+.palette_cardColor div span:hover {
+  opacity: 1;
+}

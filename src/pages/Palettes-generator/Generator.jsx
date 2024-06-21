@@ -7,7 +7,6 @@ import images from "../../../public/images.json";
 import PalettesShow from "../palettes/Palettes";
 import Button from "../../common/Button";
 
-console.log(images);
 export default function Generator() {
   const [colors, setColors] = useState(null);
   let [index, setIndex] = useState(0);
