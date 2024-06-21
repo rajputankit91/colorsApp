@@ -20,7 +20,7 @@ const PalettesShow = () => {
                           style={{ backgroundColor: `${color}` }}
                           key={index}
                         >
-                          <span>{color}</span>
+                          <p>{color}</p>
                         </div>
                       );
                     })}
