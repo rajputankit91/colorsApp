@@ -16,6 +16,7 @@ const Layout = () => {
               <Link to="/">Logo</Link>
             </h2>
           </div>
+          
           <nav className="nav-link">
             <ul>
               <li>
