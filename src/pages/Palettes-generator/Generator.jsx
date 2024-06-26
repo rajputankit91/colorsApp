@@ -1,11 +1,12 @@
 import React from "react";
 import "./Generator.css";
 import { useState } from "react";
-import { extractColors } from "extract-colors";
 import { ColorExtractor } from "react-color-extractor";
 import images from "../../../public/images.json";
 import PalettesShow from "../palettes/Palettes";
 import Button from "../../common/Button";
+
+import { extractColors } from 'extract-colors'
 
 export default function Generator() {
   const [colors, setColors] = useState(null);
@@ -65,13 +66,13 @@ export default function Generator() {
 
           <div className="right wrapper">
             <span className="selectImages">
-              <ColorExtractor getColors={getColors}>
+              <extractColors getColors={getColors}>
                 <img
                   src={images[index]}
                   style={{ width: 700, height: 500 }}
                   alt="sample"
                 />
-              </ColorExtractor>
+              </extractColors>
             </span>
             <div className="colorPalette">{renderSwatches()}</div>
           </div>
