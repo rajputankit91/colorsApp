@@ -12,6 +12,8 @@ export default function Generator() {
   const [colors, setColors] = useState(null);
   let [index, setIndex] = useState(0);
 
+  
+
   const renderSwatches = () => {
     if (Array.isArray(colors) && colors?.length > 0) {
       const swatches = colors.map((color, id) => {
