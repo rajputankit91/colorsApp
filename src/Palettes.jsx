@@ -47,7 +47,6 @@ const Palettes = () => {
         <h1>Container</h1>
         <div className="innerContainer">
           {palettes.map((palette, index) => {
-            console.log(palette)
             return (
               <div className="explore-palettes_col">
                 <div className="palette_card">

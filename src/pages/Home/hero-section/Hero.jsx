@@ -26,7 +26,7 @@ function Hero() {
               >
                 <a href="#">Start the generator!</a>
               </span>
-              <span className="hero-span-2" onClick={() => navigate("/MainHeading")}>
+              <span className="hero-span-2" onClick={() => navigate("/Palettes")}>
                 <a href="#">Explore trending palettes</a>
               </span>
             </div>
