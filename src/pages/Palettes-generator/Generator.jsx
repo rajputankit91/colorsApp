@@ -1,18 +1,17 @@
 import React from "react";
 import "./Generator.css";
 import { useState } from "react";
-import { ColorExtractor } from "react-color-extractor";
 import images from "../../../public/images.json";
 import PalettesShow from "../palettes/Palettes";
 import Button from "../../common/Button";
-
-import { extractColors } from 'extract-colors'
+import { extractColors } from "extract-colors";
+import { ColorExtractor } from "react-color-extractor";
 
 export default function Generator() {
   const [colors, setColors] = useState(null);
   let [index, setIndex] = useState(0);
 
-  
+
 
   const renderSwatches = () => {
     if (Array.isArray(colors) && colors?.length > 0) {
@@ -42,6 +41,10 @@ export default function Generator() {
     index < images.length - 1 ? setIndex(index + 1) : setIndex(0);
   };
 
+  extractColors(images[0])
+  .then(console.log)
+  .catch(console.error)
+
   return (
     <>
       <section className="section generator">
@@ -68,13 +71,14 @@ export default function Generator() {
 
           <div className="right wrapper">
             <span className="selectImages">
-              <extractColors getColors={getColors}>
+
+              <ColorExtractor getColors={getColors}>
                 <img
                   src={images[index]}
                   style={{ width: 700, height: 500 }}
                   alt="sample"
                 />
-              </extractColors>
+              </ColorExtractor>
             </span>
             <div className="colorPalette">{renderSwatches()}</div>
           </div>

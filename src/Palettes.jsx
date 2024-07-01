@@ -40,6 +40,7 @@ const Palettes = () => {
           keyupfunction={keyUpFunction} 
         />
       </form>
+      
 
       <MainHeading />
 

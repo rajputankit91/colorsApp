@@ -2,12 +2,14 @@
 //   - header CSS                                       # done
 //   - header's link proper working                     # done
 //   - add event on logo button                         # done
-//   - add event on explore trending palettes
-//   - install extract color dependencies
-//   - deploy on netlify
-//   - add upload an image button  
-//   - CSS on show image
-//   - add event on color palettes to copy color code
+
+//   - add event on explore trending palettes           # done
+//   - install extract color dependencies               #
+//   - deploy on netlify                                #
+//   - add upload an image button                       #
+//   - CSS on show image                                #
+//   - add event on color palettes to copy color code   #
+
 //   - add footer                                       # done
 //   - footer css                                       # done
 // - explore page
